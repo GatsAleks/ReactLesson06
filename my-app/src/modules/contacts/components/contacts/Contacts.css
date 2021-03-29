@@ -1,0 +1,44 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+button {
+  width: 80px;
+  height: 25px;
+  background-color: #617bbe;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 1px;
+  border: none;
+  font-family: "Nunito Sans", sans-serif;
+  margin-right: 5px;
+}
+.form_container {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form_container button {
+  width: 150px;
+  height: 35px;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.buttonTheme {
+  width: 150px;
+  margin: 15px;
+  box-shadow: 0.4em 0.4em 15px #0d1a5d;
+  cursor: pointer;
+}
